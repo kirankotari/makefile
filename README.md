@@ -1,42 +1,21 @@
-# <package-name>
+# makefile
 
-## <add-badges>
+makefile is simple tool to read varialbe from Makefile
 
-- [Introduction](#introduction)
-- [Docs](#docs)
-- [Commands](#commands)
-- [Pre-requisites](#pre-requisites)
-- [Installation and Downloads](#installation-and-downloads)
-- [FAQ](#faq)
-- [Other Resources](#other-resources)
-- [Bug Tracker and Support](#bug-tracker-and-support)
-- [Unit-Tests](#unit-tests)
-- [License and Copyright](#license-and-copyright)
-- [Author and Thanks](#author-and-thanks)
+## How to Install
 
-## Introduction
+```bash
+pip install makefile
+```
 
-## Docs
+## Usage
 
-## Commands
+```bash
+from makefile import Makefile
+obj = Makefile()
+print(obj.read())
+```
 
-## Pre-requisites
+## Contact
 
-## Installation and Downloads
-
-## FAQ
-
-- **Question:** <question>?  
- **Answer:** <answer>.
-
-## Other Resources
-
-## Bug Tracker and Support
-
-## Unit Tests
-
-## License and Copyright
-
-## Author and Thanks
-
-<package-name> was developed by [<author-name>](<author-profile-url or github-profile-link>)
+Contact Kiran Kumar Kotari <kirankotari@live.com> with any suggestions or comments. If you find any bugs please fix them and send me a pull request.

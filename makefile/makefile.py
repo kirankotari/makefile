@@ -1,6 +1,6 @@
 import re
 
-class MakeFile:
+class Makefile:
     def read(self, fpath):
         data = self.read_data(fpath)
         self.vars = self.get_variables(data)
